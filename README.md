@@ -1,13 +1,13 @@
 # PlatinumInvestment Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates an investment platform written in solidity and is deploy Hardhat. The contract is written with functions like fund, withdraw and the likes, there is test for the contract, and a script that deploys the contract.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+yarn hardhat help
+yarn hardhat test
+REPORT_GAS=true yarn hardhat test
+yarn hardhat node
+yarn hardhat run scripts/deploy.js
 ```
